@@ -1,5 +1,5 @@
 context:
-  version: "1.3"
+  version: "1.4"
 
 package:
   name: memtailor
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Macaulay2/memtailor/releases/download/v${{ version }}/memtailor-${{ version }}.tar.gz
-  sha256: 10f0c016e67912be1711a54b18c54d7024c8bfcaf0f279e11187402994150a20
+  sha256: 4d5baebf701b04b44201b75831f451305b572a5bc39235a94567ad4e59ad6cdc
 
 build:
   skip:
